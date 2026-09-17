@@ -29,6 +29,33 @@ li {
 
 
 
+.navbar {
+    background-color: #18181c;
+    border-bottom: 1px solid #2a2a2e;
+    text-align: center;
+}
+
+.nav-link {
+    color: #a1a1aa;
+    text-decoration: none;
+    padding: 16px 22px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    background-color: #202024;
+}
+
+.nav-link.active {
+    color: #ffffff;
+    background-color: #202024;
+    border-bottom: 2px solid skyblue;
+}
+
 .page-container {
     max-width: 858px;
     margin: 35px auto;
@@ -62,6 +89,52 @@ li {
 
 .custom-link:hover {
     text-decoration: underline;
+}
+
+
+
+.layout-header-div {
+    background-color: #18181c;
+    border-bottom: 1px solid #2a2a2e;
+    text-align: center;
+    padding: 24px;
+}
+
+.layout-wrapper-div {
+    max-width: 858px;
+    margin: 30px auto;
+}
+
+.sidebar-div {
+    float: left;
+    width: 28%;
+    background-color: #18181c;
+    border: 1px solid #2a2a2e;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.aside-div {
+    float: right;
+    width: 68%;
+    background-color: #18181c;
+    border: 1px solid #2a2a2e;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.clearfix-div {
+    clear: both;
+}
+
+.layout-footer-div {
+    background-color: #18181c;
+    border-top: 1px solid #2a2a2e;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #71717a;
+    font-size: 14px;
 }
 
 
