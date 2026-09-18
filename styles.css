@@ -33,6 +33,7 @@ li {
     background-color: #18181c;
     border-bottom: 1px solid #2a2a2e;
     text-align: center;
+    font-family: monospace;
 }
 
 .nav-link {
