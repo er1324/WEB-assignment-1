@@ -34,6 +34,7 @@ li {
     border-bottom: 1px solid #2a2a2e;
     text-align: center;
     font-family: monospace;
+    font-size: 0px;
 }
 
 .nav-link {
@@ -140,6 +141,112 @@ li {
 
 
 
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 35px;
+    background-color: #18181c;
+}
+
+.grades-table th, .grades-table td {
+    border: 1px solid #2a2a2e;
+    padding: 12px;
+    text-align: center;
+    color: #a1a1aa;
+}
+
+.grades-table th {
+    background-color: #202024;
+    color: #e1e1e6;
+    font-weight: 600;
+}
+
+.grades-table tbody tr:nth-child(even) {
+    background-color: #141416;
+}
+
+.highlight-row {
+    background-color: #202b38 !important;
+    color: #e1e1e6 !important;
+}
+
+.highlight-row td {
+    color: #e1e1e6 !important;
+}
+
+.feedback-form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #18181c;
+    border: 1px solid #2a2a2e;
+    border-radius: 8px;
+    padding: 28px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+    color: #a1a1aa;
+    font-size: 14px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    background-color: #121212;
+    border: 1px solid #2a2a2e;
+    border-radius: 4px;
+    color: #a1a1aa;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: skyblue;
+}
+
+.radio-group label {
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 16px;
+    color: #a1a1aa;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: skyblue;
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+    background-color: rgb(100, 160, 180);
+}
+
+
+
 #h1-small {
     font-size: 16px;
+}
+
+#table-heading {
+    text-align: center;
+    margin-bottom: 20px;
 }
